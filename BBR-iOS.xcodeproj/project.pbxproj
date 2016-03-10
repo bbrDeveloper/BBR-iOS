@@ -12,6 +12,7 @@
 		8F8840C61C9187EC00197FDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8840C51C9187EC00197FDF /* ViewController.m */; };
 		8F8840CB1C9187EC00197FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F8840CA1C9187EC00197FDF /* Assets.xcassets */; };
 		8F8840CE1C9187EC00197FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8840CC1C9187EC00197FDF /* LaunchScreen.storyboard */; };
+		8F8840D81C918C1800197FDF /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8840D71C918C1800197FDF /* IntroViewController.m */; };
 		C672ECB56B8AC44F34A86236 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A22745B21EEE5EA85879859 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		8F8840CA1C9187EC00197FDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F8840CD1C9187EC00197FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F8840CF1C9187EC00197FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F8840D61C918C1800197FDF /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		8F8840D71C918C1800197FDF /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 		E7001FB20537802F11808BB0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +83,7 @@
 		8F8840BD1C9187EC00197FDF /* BBR-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				8F8840D51C918BF500197FDF /* View&ViewControllers */,
 				8F8840C11C9187EC00197FDF /* AppDelegate.h */,
 				8F8840C21C9187EC00197FDF /* AppDelegate.m */,
 				8F8840C41C9187EC00197FDF /* ViewController.h */,
@@ -98,6 +102,15 @@
 				8F8840BF1C9187EC00197FDF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F8840D51C918BF500197FDF /* View&ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F8840D61C918C1800197FDF /* IntroViewController.h */,
+				8F8840D71C918C1800197FDF /* IntroViewController.m */,
+			);
+			name = "View&ViewControllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +236,7 @@
 				8F8840C61C9187EC00197FDF /* ViewController.m in Sources */,
 				8F8840C31C9187EC00197FDF /* AppDelegate.m in Sources */,
 				8F8840C01C9187EC00197FDF /* main.m in Sources */,
+				8F8840D81C918C1800197FDF /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "IntroViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,9 +16,12 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    IntroViewController *introViewController = [[IntroViewController alloc] init];
+    self.window.rootViewController = introViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
